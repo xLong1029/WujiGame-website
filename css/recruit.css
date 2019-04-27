@@ -1,0 +1,168 @@
+@charset "utf-8";
+/**************************************
+Author:xLong
+Date:2015-10-22
+Version:1.0.0
+**************************************/
+body{
+	background:#1a2a5d;
+	font-size:18px;
+	}
+	
+p{
+	text-indent:0;
+	}
+	
+a:hover{
+	color:none;}
+	
+.wrapper{
+	width:900px;
+	}
+	
+.section.nav-down{
+	display:block;
+	}
+	
+.recruit-top-bg{
+	background:url(../images/recruit-scetion-bg.jpg) top center no-repeat;
+	height:396px;
+	}
+	
+.recruit-cont{
+	position:relative;
+	}
+/**************************************/		
+.section.welfare{
+	background:url(../images/recruit-section-welfare.jpg) top center no-repeat;
+	height:663px;
+	}
+	
+.welfare h1{
+	text-align:center;
+	font-size:48px;
+	line-height:48px;
+	padding:52px 0;
+	}
+
+/**************************************/	
+.job-cont{
+	padding:90px 0;
+	}
+	
+.job h2{
+	/*margin-bottom:32px;*/
+	display:inline-block;
+	margin-right:50px;
+	}
+	
+.job .icon-recruit-more{
+	background:url(../images/icon-recruit-more.png) no-repeat;
+	width:83px;
+	height:83px;
+	float:right;
+	cursor:pointer;
+	margin-top:-22px;
+	}
+	
+.job-cont:nth-child(2n+1){
+	background:#e2f1fd;
+	color:#000;
+	}
+	
+.job-cont:nth-child(2n+1) .job a{
+	background-position:0 0;
+	}
+	
+.job-cont:nth-child(2n+1) .job a:hover{
+	background-position:-84px 0;
+	}
+	
+.job-cont:nth-child(2n+1) .job a.retact{
+	background-position:-168px 0;
+	}
+	
+.job-cont:nth-child(2n){
+	background:#37a1e4;
+	color:#fff;
+	}
+	
+.job-cont:nth-child(2n) .job a{
+	background-position:0 -82px;
+	}
+	
+.job-cont:nth-child(2n) .job a:hover{
+	background-position:-84px -82px;
+	}
+	
+.job-cont:nth-child(2n) .job a.retact{
+	background-position:-168px -82px;
+	}
+	
+.job-cont p{
+	margin-top:50px;
+	}
+
+.job-requirement{
+	display:none;
+	}
+	
+.job-requirement.show{
+	display:block;
+	}
+/**************************************/
+.float-nav{
+	width:140px;
+	z-index:999;
+	position:absolute;
+	/*position:fixed;*/
+	}
+	
+.float-nav a{
+	float:left;
+	text-align:center;
+	width:140px;
+	padding:20px 15px;
+	font-size:28px;
+	line-height:38px;
+	color:#064495;
+	cursor:pointer;
+	}
+	
+.float-nav li.on a{
+	background:#064495;
+	color:#fff;
+	}
+
+.icon-recruit{
+	float:left;
+	background:url(../images/icon-recruit.png) no-repeat;
+	width:38px;
+	height:38px;
+	}
+
+.icon-job-1{
+	background-position:0 0;
+	}
+
+.icon-job-2{
+	background-position:-41px 0;
+	}
+
+.icon-job-3{
+	background-position:-89px 0;
+	}
+
+.icon-job-4{
+	background-position:-132px 0;
+	}
+
+.icon-job-5{
+	background-position:-175px 0;
+	}
+/**************************************/	
+@media (max-width: 1280px){
+	.float-nav{
+		display:none;
+		}
+}

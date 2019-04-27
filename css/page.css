@@ -1,0 +1,39 @@
+@charset "utf-8";
+/**************************************
+Author:xLong
+Date:2015-11-20
+Version:1.0.0
+**************************************/
+.page{
+	height:32px;
+	}
+	
+.page .page-list{
+	float:right;
+	}
+	
+.page-list a,.page-list span{
+	background:#142047;
+	border: 1px solid #1e2c53;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 28px;
+    float: left;
+    font-size: 14px;
+	color: #90d7fd;
+    text-shadow: 1px 1px 0 #7487B9;
+    margin-right: 10px;
+	border-radius:5px;
+}
+
+.page-list a.on {
+    background: #111527;
+    color:#313D5F;
+	border:1px solid #18254A;
+	text-shadow: 1px 1px 0 #000;
+}
+
+.page-list a:last-child{
+	margin-right:0;
+	}

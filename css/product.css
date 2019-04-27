@@ -1,0 +1,106 @@
+@charset "utf-8";
+/**************************************
+Author:xLong
+Date:2015-10-19
+Version:1.0.0
+**************************************/
+body{
+	background:#1a2a5d;
+	font-size:18px;
+	}
+	
+.section.nav-down{
+	display:block;
+	}
+	
+.contact-top-bg{
+	background:url(../images/product-section-bg.jpg) top center no-repeat;
+	height:396px;
+	}
+/**************************************/	
+.game-cont{
+	height:620px;
+	}
+	
+.game-cont h2{
+	margin-bottom:32px;
+	}
+	
+.game-cont img{
+	margin-top:160px;
+	}
+	
+.game-cont:nth-child(2n+1){
+	background:#1a2a5d;
+	color:#fff;
+	}
+	
+.game-cont:nth-child(2n){
+	background:#e2f1fd;
+	color:#000;
+	}
+	
+.game-cont .game-desc{
+	width:545px;
+	margin-top:160px;
+	}
+	
+.btn-box{
+	margin-top:25px;
+	}
+	
+.btn-box a{
+	position:relative;
+	padding: 14px 60px 14px 20px;
+	border-radius: 5px; 
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	cursor:pointer;
+	}
+	
+.btn-box i{
+	width:21px;
+	height:21px;
+	position:absolute;
+	top:16px;
+	right:20px;
+	background:url(../images/icon-next.png) no-repeat;
+	}
+	
+.btn-box.odd a{
+	color:#fff;
+	border:1px solid #fff;
+	}
+	
+.btn-box.even a{
+	color:#000;
+	border:1px solid #000;
+	margin-right:20px;
+	}
+	
+.btn-box.odd i{
+	background-position:0 0;
+	}
+	
+.btn-box.even i{
+	background-position:-21px 0;
+	}
+	
+.btn-box.odd a:hover{
+	background:#fff;
+	color:#1a2a5d;
+	}
+	
+.btn-box.odd a:hover i{
+	background-position:-44px 0;
+	}
+	
+.btn-box.even a:hover{
+	background:#000;
+	color:#e2f1fd;
+	}
+	
+.btn-box.even a:hover i{
+	background-position:-66px 0;
+	}

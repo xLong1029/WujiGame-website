@@ -1,0 +1,40 @@
+body
+{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #fff;
+    line-height: 20px;
+    padding: 200px 0;
+}
+
+#error-wrap
+{
+    text-align: center;
+    margin: auto;
+}
+
+#error-digits
+{
+    margin: auto;
+    margin-bottom: 25px;
+    display: inline-block;
+}
+
+#error-digits > span
+{
+    display: inline-block;
+    font-size: 96px;
+    margin: 5px;
+    line-height: 96px;
+    font-weight: bold;
+    background-color: #e84a49;
+    padding: 16px 32px;
+    position: relative;
+}
+
+#error-wrap h1
+{
+    margin-bottom: 15px;
+    text-shadow: 1px 1px #fff;
+    color: #313131;
+	font: 33px "microsoft yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
