@@ -1,7 +1,7 @@
 # WujiGame-website
 
 ## 项目说明
-无极游戏公司官方网站，静态页面制作
+无极游戏公司官方网站，静态页面制作（仅供学习共享，请勿商用）
 
 ## 项目展示
 DEMO地址：https://xlong1029.github.io/WujiGame-website/
